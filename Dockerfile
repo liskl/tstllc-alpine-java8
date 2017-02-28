@@ -1,5 +1,7 @@
 FROM tstllc-base_glibc:latest 
 
+ENV LANG C.UTF-8
+
 ENV JAVA_VERSION=8 \
     JAVA_UPDATE=102 \
     JAVA_BUILD=14 \
