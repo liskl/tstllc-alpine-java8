@@ -1,4 +1,4 @@
-FROM tstllc-base_glibc:latest 
+FROM registry.liskl.com/tstllc/alpine-base-glibc:latest
 
 ENV LANG C.UTF-8
 
