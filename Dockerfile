@@ -1,5 +1,8 @@
 FROM registry.liskl.com/tstllc/alpine-base-glibc:latest
 
+# Dev-Ops Team
+MAINTAINER dl_team_devops@tstllc.net
+
 ENV LANG C.UTF-8
 
 RUN { \
